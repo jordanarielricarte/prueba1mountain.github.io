@@ -1,0 +1,27 @@
+#contactoturismo{
+    background:rgba(0, 0, 0, 0.548);
+    padding: 4%;
+}
+
+.contenedorinformacion
+{
+width:100%;
+color:rgb(255, 255, 255);
+}
+
+h2{
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+.contenedorprueba
+{
+    width:100%;
+}
+
+.contenedorprueba img
+{
+    width:12%;
+    margin:auto;
+    display: block
+}

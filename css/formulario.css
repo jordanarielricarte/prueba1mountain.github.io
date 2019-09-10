@@ -1,0 +1,61 @@
+input[type="text"], input[type="password"],input[type="email"], input[type="submit"],input[type="number"], input[type="date"]
+{
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 500px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    color:black;
+    margin: 20px auto;
+}
+
+input[type="submit"]
+{
+    padding: 10px;
+    background: #df8b0d;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+h4{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#maining{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color:white;
+    padding: 10px;
+}
+
+
+select{
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 500px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    margin: 20px auto;
+    color:black;
+}
+
+input[type="submit"]:hover {
+    background-color: #e2870f;
+}
+
+
+@media screen and (max-width: 600px) {
+    input[type="text"], input[type="password"],input[type="email"], input[type="submit"],input[type="number"], input[type="date"]{
+        width: 100%;
+    }
+    select{
+        width: 100%;
+    }
+    
+}

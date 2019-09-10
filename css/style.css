@@ -1,0 +1,165 @@
+
+body{
+	margin:0;
+	padding:0;
+	background-image: url("../imagenes/forest4.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+
+header{
+	background-image: url("../imagenes/header.jpg");
+	padding:90px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+header h1{
+	text-align: center;
+	font-size: 50px;
+	color:white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 4px;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #5AF800;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #5AF800;
+  color: black;
+  text-decoration: none;
+}
+
+#contenedortotal{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+#contenido1{
+	background-color: rgb(0, 126, 31);
+    color: rgb(255, 255, 255);
+	width: 60%;
+	padding: 30px;
+	text-align:justify;
+}
+
+
+#contenido2{
+	background-color: rgb(0, 126, 31);
+	width: 40%;
+	padding: 10px;
+	text-align:justify;
+}
+
+#contenido2 h1{
+	text-align: center;
+}
+
+#contenido2 iframe{
+	width: 100%;
+	padding: 3%;
+}
+
+#contenido3{
+	background-color: white;
+	width: 100%;
+	color:black;
+	padding: 30px;
+	text-align:justify;
+}
+
+#contenido3 img{
+	margin-right: 0.7%;
+	margin-left: 0.7%;
+	border-radius:5px;
+	box-shadow: 10px 5px 5px black;
+}
+
+
+#contenido4{
+	background-color: rgb(0, 126, 31);
+	width: 100%;
+  color: rgb(255, 255, 255);
+	padding: 30px;
+	text-align:justify;
+}
+
+#contenido4 h1{
+	text-align: center;
+}
+
+#contenido4 iframe{
+	width: 100%;
+	padding: 3%;
+}
+
+#contenido5{
+	background-color: white;
+	width: 100%;
+	color:black;
+	padding: 10px;
+	text-align:justify;
+}
+
+#contenido5 h1{
+	text-align: center;
+}
+
+#contenido5 p img{
+	margin:1%;
+	border-radius: 5px;
+	box-shadow: 10px 5px 5px black;
+}
+
+
+
+footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: #5AF800;
+  padding: 50px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+#contenido1, #contenido2, iframe{
+	width: 100%;
+}
+
+img{
+	width:100%;
+	padding: 0;
+}
+
+#contenido5{
+	padding:40px;
+}
+#contenido3{
+	padding:40px;
+}
+}

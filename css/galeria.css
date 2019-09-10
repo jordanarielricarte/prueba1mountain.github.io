@@ -1,0 +1,33 @@
+.contenedorgaleria{
+    background: rgba(0, 0, 0, 0.637);
+    width:100%;
+    padding: 5%;
+}
+
+.fotos{
+width: 100%;
+align-items: center;
+justify-content: center;
+}
+
+.fotos img{
+    border-radius: 5px;
+    padding: 2%;
+    border: 2px solid white;
+    margin: 6%;
+    width: 500px;
+    background: rgb(116, 116, 116);
+}
+
+h6{
+    color:white;
+    font-size: 70px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .fotos img{
+        width: 100%;
+        margin:0%;
+    }    
+}

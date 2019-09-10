@@ -1,0 +1,66 @@
+<html>
+	<head>
+		  <title>Inicio Mountain Break</title>
+		  <meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		  <link rel="stylesheet" href="css/style.css">
+		  <link rel="stylesheet" href="css/formulario.css">
+		  <link rel="stylesheet" href="css/boostrapdesign.css">
+		  <link rel="icon" href="imagenes/logo.png">
+		  <script type="text/javascript" src="js/validaciones.js"></script>
+		  <script type="text/javascript" src="js/validacion1.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1> Mountain Break</h1>
+		</header>
+		<nav>
+		<ul>
+		  <li><a href="index.html">Inicio</a></li>
+		  <li><a href="formulario.html">Registro</a></li>
+		  <li><a href="galeria.html">Galeria</a></li>
+		  <li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	  </nav>
+	  <form  id="maining" action="formulario.html" method="POST">
+		<h4>Registro de salida</h4>
+        <input type="text" name="nombre" placeholder="Ingrese su nombre" onkeypress="return sololetras(event)" >
+        <input type="text" name="apellido" placeholder="Ingrese su apellido"  onkeypress="return sololetras(event)" >
+		<input type="text" name="rut" placeholder="Ingrese su rut" required>
+		<input type="number" name="edad" placeholder="Ingrese su edad" min="0" max="60" required>
+		<input type="text" name="telefono" placeholder="Ingrese su telefono" onkeypress="return solonumero(event)" required>
+		<select name="pais" >
+				<option value="chile">chile</option>
+				<option value="argentina">argentina</option>
+				<option value="peru">peru</option>
+				<option value="bolivia">bolivia</option>
+				<option value="brasil">brasil</option>
+				<option value="venezuela">venezuela</option>
+				<option value="ecuador">ecuador</option>
+				<option value="colombia">colombia</option>
+				<option value="uruguay">uruguay</option>
+				<option value="paraguay">paraguay</option>
+		</select>
+		<input type="date" name="fecha ida">
+		<select name="pais" >
+				<option value="torres del paine">torres del paine</option>
+				<option value="pumalin">pumalin</option>
+				<option value="aguas de ramon">aguas de ramon</option>
+				<option value="campos de hielo norte">campos de hielo norte</option>
+				<option value="campos de hielo sur">campos de hielo sur</option>
+				<option value="ventisquero colgante">ventisquero colgante</option>
+				<option value="conguillio">conguillio</option>
+				<option value="huerquehue">huerquehue</option>
+				<option value="pan de azucar">pan de azucar</option>
+				<option value="villarrica">villarrica</option>
+		</select>
+        <input type="submit" value="registrar" onclick="validacion()">
+	  </form>
+	  <footer>
+		<p>@Derechos Reservados para Mountain Break</p>
+	</footer>
+</body>
+</html>
